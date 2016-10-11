@@ -11,6 +11,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- jar包的依赖 -->
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.ibatis</groupId>
+			<artifactId>ibatis-core</artifactId>
+		</dependency>
 		<!-- 时间操作组件 -->
 		<dependency>
 			<groupId>joda-time</groupId>
