@@ -6,6 +6,10 @@ public abstract class AbstractLavaBoImpl<D extends LavaDo,
 	
 	protected K mapper;
 	
+	public void setMapper(K mapper){
+		this.mapper = mapper;
+	}
+	
 	//一些虚拟的实现
 	public int insert(D dataObject) {
 		// TODO Auto-generated method stub
